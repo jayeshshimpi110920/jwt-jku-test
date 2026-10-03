@@ -4,6 +4,8 @@
 
 This repository is created for security testing of **JWT authentication vulnerabilities**, specifically **JKU header injection**.
 
+RSA KEY HERE : https://jayeshshimpi110920.github.io/jwt-jku-test/jwks.json
+
 ## Purpose
 
 The repository hosts a `jwks.json` file containing a test RSA **public JWK**. It can be used to understand how a vulnerable JWT implementation may retrieve an attacker-controlled public key through the `jku` header.
